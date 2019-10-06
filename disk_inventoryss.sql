@@ -95,7 +95,7 @@ create unique index PK_diskHasArtist on diskHasArtist(disk_id, artist_id);
 
 --Create login for diskss
 -- if the user diskss does not exists
-if USER_ID('diskss') is null
+if SUSER_ID('diskss') is null
 	--new sql server login ID
 	create login diskss with password = 'MSPress#1',
 	-- setting the default database to disk_inventoryss
