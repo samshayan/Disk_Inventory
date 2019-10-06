@@ -1,6 +1,6 @@
 /********************************************************************
 *	Date		Author		Note
-*	10-3-2019	Sam Shayan	script for disk_inventory database
+*	10-5-2019	Sam Shayan	script for disk_inventory database
 *********************************************************************/
 
 use master;
